@@ -26,7 +26,7 @@ const Service = () => {
         </span>
 
         <a
-          href="https://drive.usercontent.google.com/u/0/uc?id=1E510jC6KhGlAuQaHNr11j64gqmXoIJPo&export=download"
+          href="https://drive.google.com/file/d/1maNOe_TCuQwRT3jKHex6Z52c1yFulqov/view?usp=sharing"
           target="_blank"
           download
         >
