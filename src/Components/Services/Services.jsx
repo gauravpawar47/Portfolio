@@ -26,8 +26,8 @@ const Service = () => {
         </span>
 
         <a
-          href="https://drive.google.com/file/d/1maNOe_TCuQwRT3jKHex6Z52c1yFulqov/view?usp=sharing"
-          target="_blank"
+          href="https://drive.google.com/file/d/1maNOe_TCuQwRT3jKHex6Z52c1yFulqov/view?usp=sharing" rel="noreferrer"
+          target="_blank" 
           download
         >
           <button className="button s-button">Download CV</button>

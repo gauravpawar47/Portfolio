@@ -30,7 +30,7 @@ const Intro = () => {
           </span>
         </div>
 
-        <a href="mailto:gauravpawaroff@gmail.com" target="_blank">
+        <a href="mailto:gauravpawaroff@gmail.com" target="_blank" rel="noreferrer">
           <button className="button i-button ">Hire Me!</button>
         </a>
 
