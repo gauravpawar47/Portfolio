@@ -17,16 +17,15 @@ const Service = () => {
       {/* Left Side */}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>Services</span>
+        <span>Skills</span>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam
-          aspernatur blanditiis dicta
-          <br />
-          quidem rem consequatur eveniet rerum ipsa? Aperiam omnis voluptatum
+        A versatile software developer skilled in Core Software Developement Languages
+        <br/> With the Experience in the Popular Web-Based Frameworks.
+        <br/> Proficient in database management using MongoDB and MySQL.
         </span>
 
         <a
-          href="https://drive.google.com/file/d/1maNOe_TCuQwRT3jKHex6Z52c1yFulqov/view?usp=sharing" rel="noreferrer"
+          href="https://drive.google.com/file/d/1RAR4TOGUUnEEihzi9P91cQ_7Q1tES-xZ/view?usp=sharing" rel="noreferrer"
           target="_blank" 
           download
         >
@@ -45,9 +44,9 @@ const Service = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
+            heading={"Technologies"}
             detail={
-              "Figma, Sketch, Photoshop, Adobe, Adobe XD, Java, Advance Java, C++, DSA, NodeJS, ReactJs"
+              "C, C++, Java, SQL, HTML, CSS, JavaScript, Bash, C#, Android"
             }
           />
         </motion.div>
@@ -60,8 +59,8 @@ const Service = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"HTML, CSS, JS, C++, Java, LINUX< UNIX, ReactJS, Fullstack"}
+            heading={"Frameworks & Tools"}
+            detail={"MongoDB, ExpressJS, ReactJS, NodeJs, Spring, SpringBoot, Maven, SQLDeveloper, MySQL, Git"}
           />
         </motion.div>
 
@@ -73,9 +72,9 @@ const Service = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Development"}
             detail={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati minima dolores ea, amet mollitia iste sapiente repudiandae facere?"
+              "Full Stack, Java Full Stack , Java, Frontend, Backend"
             }
           />
         </motion.div>

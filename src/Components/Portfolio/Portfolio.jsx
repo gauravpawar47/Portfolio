@@ -1,8 +1,8 @@
 import React from 'react'
 import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Sliderbar from '../../img/sidebar.png';
-import Ecommerce from '../../img/ecommerce.png';
+import SortingVisualizer from '../../img/Project1.png';
+import ChatGPT from '../../img/Project2.png';
 import HOC from '../../img/hoc.png';
 import MusicApp from '../../img/musicapp.png';
 import 'swiper/css'
@@ -15,32 +15,34 @@ const Portfolio = () =>{
     return(
         <div className="portfolio" id='Portfolio'>
             {/* Heading */}
-            <span style={{color : darkMode ? 'white' : ''}}>Recent Projects</span>
+            <span style={{ color: darkMode ? 'white' : '' }}>Recent Projects</span>
             <span>Works</span>
 
-            {/* Slider */}  
-            <Swiper spaceBetween={30} slidesPerView={3} grabCursor={true} className='portfolio-slider'> 
+            {/* Slider */}
+            <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
+                <Swiper
+                spaceBetween={0}
+                slidesPerView={2} // Adjusting to 2 for better centering
+                grabCursor={true}
+                className='portfolio-slider'
+                >
                 <SwiperSlide>
-                    <img src={Sliderbar} alt="" />
+                    <a href='https://stupendous-pudding-b52096.netlify.app/' target="_blank" rel="noopener noreferrer">
+                    <img src={SortingVisualizer} alt="" />
+                    </a>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src={Ecommerce} alt="" />
-                </SwiperSlide>
-                
-                <SwiperSlide>
-                    <img src={HOC} alt="" />
-                </SwiperSlide>
-                
-                <SwiperSlide>
-                    <img src={MusicApp} alt="" />
+                    <a href='https://666c751019c45a914093326a--symphonious-squirrel-6ccd6d.netlify.app/' target="_blank" rel="noopener noreferrer">
+                    <img src={ChatGPT} alt="" />
+                    </a>
                 </SwiperSlide>
 
-
-
-            </Swiper>
-
+                {/* Additional slides can be added here */}
+                </Swiper>
+            </div>
         </div>
+
     )
 }
 

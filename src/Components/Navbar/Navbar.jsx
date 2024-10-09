@@ -7,7 +7,11 @@ const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-left">
-        <div className="n-name">Gaurav</div>
+        <div className="n-name">
+          <span onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
+            Gaurav
+          </span>
+        </div>
         <Toggle />
       </div>
 
@@ -38,7 +42,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <a href="mailto:gauravpawaroff@gmail.com">
+        <a href="mailto:gauravpawaroff@gmail.com" target="_blank">
           <button className="button n-button">Contact</button>
         </a>
       </div>

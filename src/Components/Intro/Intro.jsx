@@ -1,6 +1,7 @@
 import React from "react";
 import "./Intro.css";
 import FloatingDiv from "../FloatingDiv/FloatingDiv"; // Adjusted path
+import {SiLeetcode} from 'react-icons/si' 
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
@@ -25,8 +26,9 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "black" }}>Hey! I Am</span>
           <span>Gaurav Pawar</span>
           <span>
-            Software Developer with high-level Programming and Development
-            Skills, Producing Efficient Work
+          As a passionate software developer, I possess strong skills in front-end and back-end technologies. <br/>
+          Proficient in Java, C, C++, and JavaScript, I utilize frameworks like ReactJS and NodeJS for dynamic applications. <br/>
+          My experience with MySQL and MongoDB, along with tools like Spring Boot and Android.
           </span>
         </div>
 
@@ -55,6 +57,10 @@ const Intro = () => {
             rel="noopener noreferrer"
           >
             <img src={Instagram} alt="Instagram" />
+          </a>
+
+          <a href="https://leetcode.com/student47" target="_blank" rel="noopener noreferrer">
+            <SiLeetcode style={{ fontSize: '85px', color: '#FFA500'}} /> {/* Adjust the size here */}
           </a>
         </div>
       </div>

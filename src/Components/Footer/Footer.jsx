@@ -4,6 +4,7 @@ import GitHub from "@iconscout/react-unicons/icons/uil-github";
 import LinkedIN from "@iconscout/react-unicons/icons/uil-linkedin";
 import Instagram from "@iconscout/react-unicons/icons/uil-instagram";
 import Wave from "../../img/wave.png";
+import {SiLeetcode} from 'react-icons/si' 
 
 const Footer = () => {
   return (
@@ -34,6 +35,10 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <Instagram color="white" size="3rem" />
+          </a>
+          
+          <a href="https://leetcode.com/student47" target="_blank" rel="noopener noreferrer">
+            <SiLeetcode style={{ fontSize: '52px', color: '#ffffff'}} /> {/* Adjust the size here */}
           </a>
         </div>
       </div>
