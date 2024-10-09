@@ -3,8 +3,6 @@ import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import SortingVisualizer from '../../img/Project1.png';
 import ChatGPT from '../../img/Project2.png';
-import HOC from '../../img/hoc.png';
-import MusicApp from '../../img/musicapp.png';
 import 'swiper/css'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
