@@ -42,7 +42,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <a href="mailto:gauravpawaroff@gmail.com" target="_blank">
+        <a href="mailto:gauravpawaroff@gmail.com" target="_blank" rel="noopener">
           <button className="button n-button">Contact</button>
         </a>
       </div>
