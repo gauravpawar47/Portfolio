@@ -29,7 +29,7 @@ const Navbar = () => {
             </Link>
             <Link spy={true} to="Services" smooth={true}>
               {" "}
-              <li className="navbar-items">Services</li>{" "}
+              <li className="navbar-items">Skills</li>{" "}
             </Link>
             <Link spy={true} to="Experience" smooth={true}>
               {" "}
