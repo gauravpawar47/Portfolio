@@ -3,6 +3,7 @@ import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import SortingVisualizer from '../../img/Project1.png';
 import ChatGPT from '../../img/Project2.png';
+import Zomato from '../../img/Project3.png';
 import 'swiper/css'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
@@ -20,7 +21,7 @@ const Portfolio = () =>{
             <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
                 <Swiper
                 spaceBetween={0}
-                slidesPerView={2} // Adjusting to 2 for better centering
+                slidesPerView={3} // Adjusting to 2 for better centering
                 grabCursor={true}
                 className='portfolio-slider'
                 >
@@ -33,6 +34,12 @@ const Portfolio = () =>{
                 <SwiperSlide>
                     <a href='https://666c751019c45a914093326a--symphonious-squirrel-6ccd6d.netlify.app/' target="_blank" rel="noopener noreferrer">
                     <img src={ChatGPT} alt="" />
+                    </a>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <a href='https://zomato-basics.netlify.app/' target="_blank" rel="noopener noreferrer">
+                    <img src={Zomato} alt="" />
                     </a>
                 </SwiperSlide>
 
